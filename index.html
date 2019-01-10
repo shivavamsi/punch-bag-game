@@ -13,6 +13,19 @@
   <h1>Punch the Bag!!!</h1>
   <div id="punchbag-app">
 
+    <audio id="punch-0">
+      <source src="media/punch-0.wav" type="audio/ogg">
+    </audio>
+    <audio id="punch-1">
+      <source src="media/punch-1.wav" type="audio/ogg">
+    </audio>
+    <audio id="punch-2">
+      <source src="media/punch-2.wav" type="audio/ogg">
+    </audio>
+    <audio id="restart">
+      <source src="media/restart.wav" type="audio/ogg">
+    </audio>
+
     <div v-bind:class="{ 'bag-image': !isDead, 'bag-burst-image': isDead }"></div>
 
     <div id="health-bar">
@@ -28,6 +41,9 @@
       <p>{{exclamation}}</p>
     </div>
   </div>
+  <a href="https://github.com/shivavamsi/punch-bag-game">
+    <div class="foot"><img src="images/logo.png" width="50px" height="50px"></div>
+  </a>
   <script src="scripts/app.js">
   </script>
 </body>

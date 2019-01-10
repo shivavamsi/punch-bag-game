@@ -70,3 +70,12 @@ button:hover, button:focus {
   box-shadow: 0 0.5em 0.5em -0.4em #DC143C;
   transform: translateY(-0.25em);
 }
+
+.foot img {
+  position: absolute;
+  bottom: 2%;
+  right: 35%;
+  line-height: 50px;
+  opacity: 0.5;
+  margin: 0 auto;
+}
