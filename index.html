@@ -2,34 +2,12 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Punchbag Game</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
-  <link href="css/styles.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <title>Testing<title>
 </head>
 
 <body>
-  <h1>Punch the Bag!!!</h1>
-  <div id="punchbag-app">
-
-    <div v-bind:class="{ 'bag-image': !isDead, 'bag-burst-image': isDead }"></div>
-
-    <div id="health-bar">
-      <div class="current-health" v-bind:style="{width: bagHealth + '%'}"></div>
-    </div>
-
-    <div id="game-controls">
-      <button v-on:click="punch" v-show=!isDead class="raise">Punch</button>
-      <button v-on:click="resetGame">Play Again!</button>
-    </div>
-
-    <div id="expression">
-      <p>{{exclamation}}</p>
-    </div>
-  </div>
-  <script src="scripts/app.js">
-  </script>
+  <h1>Hola!</h1>
 </body>
 
 </html>
