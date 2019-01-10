@@ -20,7 +20,7 @@ new Vue({
   methods: {
     punch: function() {
       var r = Math.floor(Math.random() * Math.floor(3));
-      var audio = new Audio("/media/punch-" + r + ".wav");
+      var audio = new Audio("../media/punch-" + r + ".wav");
       audio.play();
 
       this.bagHealth -= 10;

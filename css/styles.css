@@ -1,6 +1,6 @@
 body {
   background-color: #696969;
-  background-image: url(/images/background.jpg);
+  background-image: url('../images/background.jpg');
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
   width: 200px;
   height: 400px;
   margin: 0 auto;
-  background: url(/images/bag.png) center no-repeat;
+  background: url('../images/bag.png') center no-repeat;
   background-size: 75%;
 }
 
@@ -24,7 +24,7 @@ h1 {
   width: 200px;
   height: 500px;
   margin: 0 auto;
-  background: url(/images/bag-burst.png) center no-repeat;
+  background: url('../images/bag-burst.png') center no-repeat;
   background-size: 75%;
 }
 
