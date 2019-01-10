@@ -40,8 +40,12 @@ h1 {
 }
 
 #game-controls {
-  width: 195px;
-  margin: 0 auto;
+  position: fixed;
+  width: 170px;
+  margin-left: -85px;
+  text-align: center;
+  display: inline-block;
+  left: 50%;
 }
 
 #expression {
@@ -50,6 +54,7 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
+  margin-top: 100px;
   color: #EEEE00;
   transform: skewY(-7deg);
 }
@@ -69,6 +74,11 @@ button {
 button:hover, button:focus {
   box-shadow: 0 0.5em 0.5em -0.4em #DC143C;
   transform: translateY(-0.25em);
+}
+
+.restart {
+  float: right;
+  margin-right: 0 auto;
 }
 
 .foot img {
