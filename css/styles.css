@@ -83,7 +83,7 @@ button:hover, button:focus {
 
 .foot img {
   position: absolute;
-  bottom: 2%;
+  top: 90%;
   right: 35%;
   line-height: 50px;
   opacity: 0.5;
