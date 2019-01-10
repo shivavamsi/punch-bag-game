@@ -1,0 +1,72 @@
+body {
+  background-color: #696969;
+  background-image: url(/images/background.jpg);
+}
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+  text-shadow: -1px 0 black, 0 1px yellow, 1px 0 yellow, 0 -1px black;
+  text-align: center;
+  margin: 0 auto;
+  color: #FF3333;
+}
+
+.bag-image {
+  width: 200px;
+  height: 400px;
+  margin: 0 auto;
+  background: url(/images/bag.png) center no-repeat;
+  background-size: 75%;
+}
+
+.bag-burst-image {
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+  background: url(/images/bag-burst.png) center no-repeat;
+  background-size: 75%;
+}
+
+#health-bar {
+  width: 200px;
+  border: 2px solid #000;
+  margin: 0 auto 20px auto;
+}
+
+#health-bar .current-health {
+  height: 20px;
+  background: #DC143C;
+}
+
+#game-controls {
+  width: 195px;
+  margin: 0 auto;
+}
+
+#expression {
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  color: #EEEE00;
+  transform: skewY(-7deg);
+}
+
+button {
+  color: #DC143C;
+  transition: 0.25s;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 0;
+  margin: 0 auto;
+  padding: 1em 1em;
+  border-radius: 5%;
+}
+
+button:hover, button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #DC143C;
+  transform: translateY(-0.25em);
+}
